@@ -5,6 +5,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+// Al utilizar Ctrl + . lo que hace es importar todos los componentes a la vez
+// Recordar que los componentes deben venir siempre de '@/components/ui'
+// Siempre hay que importarlos en el orden que se van a utilizar
+
 export default function Page() {
   return (
     <div>
